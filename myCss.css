@@ -1,0 +1,80 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    font-family: Microsoft YaHei;
+    line-height: 2;
+    min-height: 100%;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none
+}
+.fr{float: right;}
+.fl{float: left;}
+.middle{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.setCenter{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.go-content{
+    padding: 110px 0 167px 0;
+}
